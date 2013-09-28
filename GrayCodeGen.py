@@ -1,5 +1,5 @@
 # reflect and prefix metodu ile n bitlik gray code üreten betik
-# inc = inception (her şeyin başı "0", "1" :)
+# inc = inception ( her şeyin başı "0", "1" :) )
 def GrayCodeGen(n=1,inc=["0","1"]):
     # n bit sayısı için n-1 kere döngüyü çalıştır
     for i in range(0,n-1):
